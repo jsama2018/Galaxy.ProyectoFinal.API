@@ -1,0 +1,6 @@
+@Galaxy.ProyectoFinal.API_HostAddress = http://localhost:5133
+
+GET {{Galaxy.ProyectoFinal.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
