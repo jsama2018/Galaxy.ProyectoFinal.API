@@ -10,4 +10,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Galaxy.ProyectoFinal.AccesoDatos\Galaxy.ProyectoFinal.AccesoDatos.csproj" />
+    <ProjectReference Include="..\Galaxy.ProyectoFinal.Repositorios\Galaxy.ProyectoFinal.Repositorios.csproj" />
+    <ProjectReference Include="..\Galaxy.ProyectoFinal.Servicios\Galaxy.ProyectoFinal.Servicios.csproj" />
+    <ProjectReference Include="..\Galaxy.ProyectoFinal.Transversal\Galaxy.ProyectoFinal.Transversal.csproj" />
+  </ItemGroup>
+
 </Project>

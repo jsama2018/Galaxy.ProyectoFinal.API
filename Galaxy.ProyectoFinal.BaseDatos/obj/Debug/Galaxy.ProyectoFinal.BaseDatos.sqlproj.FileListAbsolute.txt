@@ -1,0 +1,6 @@
+C:\CURSO NET 8\Trabajo Final\Galaxy.ProyectoFinal.API\Galaxy.ProyectoFinal.BaseDatos\bin\Debug\Galaxy.ProyectoFinal.BaseDatos.dacpac
+C:\CURSO NET 8\Trabajo Final\Galaxy.ProyectoFinal.API\Galaxy.ProyectoFinal.BaseDatos\bin\Debug\Galaxy.ProyectoFinal.BaseDatos.dll
+C:\CURSO NET 8\Trabajo Final\Galaxy.ProyectoFinal.API\Galaxy.ProyectoFinal.BaseDatos\bin\Debug\Galaxy.ProyectoFinal.BaseDatos.pdb
+C:\CURSO NET 8\Trabajo Final\Galaxy.ProyectoFinal.API\Galaxy.ProyectoFinal.BaseDatos\obj\Debug\Galaxy.ProyectoFinal.BaseDatos.sqlproj.AssemblyReference.cache
+C:\CURSO NET 8\Trabajo Final\Galaxy.ProyectoFinal.API\Galaxy.ProyectoFinal.BaseDatos\obj\Debug\Galaxy.ProyectoFinal.BaseDatos.dll
+C:\CURSO NET 8\Trabajo Final\Galaxy.ProyectoFinal.API\Galaxy.ProyectoFinal.BaseDatos\obj\Debug\Galaxy.ProyectoFinal.BaseDatos.pdb

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="94e2a5d0-2109-4d48-be11-188ceb0f9aac" ChangeDateTime="10/05/2024 04:49:11">
+    <Property Name="ElementName" Value="[dbo].[TbClientes].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TbClientes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdClientes" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bc7714e3-9a90-4287-b9b1-fe176d651076" ChangeDateTime="10/05/2024 04:49:17">
+    <Property Name="ElementName" Value="[dbo].[TbClientes].[IdClientes]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TbClientes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="093a3f54-7925-4b90-930e-e06d17d2c1f5" ChangeDateTime="10/08/2024 12:20:53">
+    <Property Name="ElementName" Value="[dbo].[FK_TbClientes_TbMaestro]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[TbClientes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_TbClientes_TbMaestro_TipoDocumento]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2285b630-4d53-4fe6-97de-f97de7c1af92" ChangeDateTime="10/08/2024 12:35:58">
+    <Property Name="ElementName" Value="[dbo].[TbProductos].[IdMaesMarca]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TbProductos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdMaeMarca" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="adef2a31-a394-4816-9bde-fe449c15c59b" ChangeDateTime="10/08/2024 12:37:14">
+    <Property Name="ElementName" Value="[dbo].[FK_TbProductos_TbMaestroDetalle]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[TbProductos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_TbProductos_TbMaestroDetalle_Marca]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="78c579db-8c2d-4cff-98ba-2777a4dbaed1" ChangeDateTime="10/08/2024 12:37:28">
+    <Property Name="ElementName" Value="[dbo].[FK_TbProductos_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[TbProductos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_TbProductos_TbMaestroDetalle_Categoria]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="95a7e551-971c-401c-803c-b1ef35b42c97" ChangeDateTime="10/08/2024 12:44:59">
+    <Property Name="ElementName" Value="[dbo].[TbVentas].[Total_Ventas]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TbVentas]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PrecioUnitario" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="979421bf-8d2b-4d40-9778-4d2682ad2724" ChangeDateTime="10/08/2024 12:47:09">
+    <Property Name="ElementName" Value="[dbo].[TbVentas].[IdCliente]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TbVentas]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdClientes" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="19f79c97-5ede-47ef-a4ec-3576abca0fa2" ChangeDateTime="10/08/2024 12:47:11">
+    <Property Name="ElementName" Value="[dbo].[TbVentas].[IdProducto]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TbVentas]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdProductos" />
+  </Operation>
+</Operations>

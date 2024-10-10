@@ -1,0 +1,96 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [dbo].[TbClientes]
+       [dbo].[TbProductos]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Debe agregarse la columna [dbo].[TbClientes].[IdMaeTipoDocumento] de la tabla [dbo].[TbClientes], pero esta columna no
+         tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para
+         evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o
+         habilite la generación de valores predeterminados inteligentes como opción de implementación.
+       Debe agregarse la columna [dbo].[TbProductos].[IdMaeCategoria] de la tabla [dbo].[TbProductos], pero esta columna no
+         tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para
+         evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o
+         habilite la generación de valores predeterminados inteligentes como opción de implementación.
+       Debe agregarse la columna [dbo].[TbProductos].[IdMaeMarca] de la tabla [dbo].[TbProductos], pero esta columna no tiene
+         un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar
+         esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la
+         generación de valores predeterminados inteligentes como opción de implementación.
+
+** Acciones del usuario
+     Quitar
+       restricción sin nombre en [dbo].[TbClientes] (Restricción DEFAULT)
+       restricción sin nombre en [dbo].[TbClientes] (Restricción DEFAULT)
+       restricción sin nombre en [dbo].[TbClientes] (Restricción DEFAULT)
+       restricción sin nombre en [dbo].[TbProductos] (Restricción DEFAULT)
+       restricción sin nombre en [dbo].[TbProductos] (Restricción DEFAULT)
+       restricción sin nombre en [dbo].[TbProductos] (Restricción DEFAULT)
+     Volver a crear la tabla
+       [dbo].[TbClientes] (Tabla)
+       [dbo].[TbProductos] (Tabla)
+     Crear
+       [dbo].[TbMaestro] (Tabla)
+       [dbo].[TbMaestroDetalle] (Tabla)
+       [dbo].[TbVentas] (Tabla)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[TbMaestro] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[TbMaestro] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[TbMaestroDetalle] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[TbMaestroDetalle] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[TbVentas] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[TbVentas] (Restricción DEFAULT)
+       [dbo].[FK_TbClientes_TbMaestroDetalle_TipoDocumento] (Clave externa)
+       [dbo].[FK_TbProductos_TbMaestroDetalle_Marca] (Clave externa)
+       [dbo].[FK_TbProductos_TbMaestroDetalle_Categoria] (Clave externa)
+       [dbo].[FK_TbMaestroDetalle_TbMaestro] (Clave externa)
+       [dbo].[FK_TbVentas_TbClientes_Id] (Clave externa)
+       [dbo].[FK_TbVentas_TbProductos_Id] (Clave externa)
+       [dbo].[FK_TbVentas_TbMaestroDetalle_id] (Clave externa)
+       [dbo].[TbClientes].[Estado].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[IdMaeTipoDocumento].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[Estado].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestro].[Id].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestro].[Codigo].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestro].[Nombre].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestro].[Descripcion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestro].[TipoMaestro].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestro].[FechaCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestro].[UsuarioCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestro].[FechaModificacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestro].[UsuarioModificacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[Id].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[IdMaestro].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[Codigo].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[Nombre].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[Descripcion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[TipoMaestro].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[FechaCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[UsuarioCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[FechaModificacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[UsuarioModificacion].[MS_Description] (Propiedad extendida)
+
+** Acciones de compatibilidad
+     Crear
+       [dbo].[TbClientes].[Id].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[DocumentoIdentidad].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[RazonSocial].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[Nombre].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[FechaCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[UsuarioCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[FechaModificacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[UsuarioModificacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[Id].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[Codigo].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[Nombre].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[Descripcion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[FechaCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[UsuarioCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[FechaModificacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[UsuarioModificacion].[MS_Description] (Propiedad extendida)
+
+Debe agregarse la columna [dbo].[TbClientes].[IdMaeTipoDocumento] de la tabla [dbo].[TbClientes], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+Debe agregarse la columna [dbo].[TbProductos].[IdMaeCategoria] de la tabla [dbo].[TbProductos], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+Debe agregarse la columna [dbo].[TbProductos].[IdMaeMarca] de la tabla [dbo].[TbProductos], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+

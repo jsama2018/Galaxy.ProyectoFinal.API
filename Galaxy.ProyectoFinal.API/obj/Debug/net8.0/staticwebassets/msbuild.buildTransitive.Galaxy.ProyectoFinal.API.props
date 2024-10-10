@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Galaxy.ProyectoFinal.API.props" />
+</Project>

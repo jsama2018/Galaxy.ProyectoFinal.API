@@ -1,0 +1,40 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [dbo].[TbMaestroDetalle]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Quitar
+       restricción sin nombre en [dbo].[TbMaestroDetalle] (Restricción DEFAULT)
+       restricción sin nombre en [dbo].[TbMaestroDetalle] (Restricción DEFAULT)
+     Volver a crear la tabla
+       [dbo].[TbMaestroDetalle] (Tabla)
+
+** Acciones de compatibilidad
+     Quitar
+       [dbo].[FK_TbClientes_TbMaestroDetalle_TipoDocumento] (Clave externa)
+       [dbo].[FK_TbProductos_TbMaestroDetalle_Marca] (Clave externa)
+       [dbo].[FK_TbProductos_TbMaestroDetalle_Categoria] (Clave externa)
+       [dbo].[FK_TbMaestroDetalle_TbMaestro] (Clave externa)
+       [dbo].[FK_TbVentas_TbMaestroDetalle_id] (Clave externa)
+     Crear
+       [dbo].[FK_TbClientes_TbMaestroDetalle_TipoDocumento] (Clave externa)
+       [dbo].[FK_TbProductos_TbMaestroDetalle_Marca] (Clave externa)
+       [dbo].[FK_TbProductos_TbMaestroDetalle_Categoria] (Clave externa)
+       [dbo].[FK_TbMaestroDetalle_TbMaestro] (Clave externa)
+       [dbo].[FK_TbVentas_TbMaestroDetalle_id] (Clave externa)
+       [dbo].[TbMaestroDetalle].[Id].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[IdMaestro].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[Codigo].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[Nombre].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[Descripcion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[TipoMaestro].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[FechaCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[UsuarioCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[FechaModificacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbMaestroDetalle].[UsuarioModificacion].[MS_Description] (Propiedad extendida)

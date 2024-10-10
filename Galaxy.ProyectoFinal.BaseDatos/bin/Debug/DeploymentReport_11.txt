@@ -1,0 +1,36 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[TbClientes] (Tabla)
+       [dbo].[TbProductos] (Tabla)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[TbClientes] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[TbClientes] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[TbProductos] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[TbProductos] (Restricción DEFAULT)
+       [dbo].[TbClientes].[Id].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[DocumentoIdentidad].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[RazonSocial].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[Nombre].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[FechaCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[UsuarioCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[FechaModificacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbClientes].[UsuarioModificacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[Id].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[Descripcion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[Codigo].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[Nombre].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[FechaCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[UsuarioCreacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[FechaModificacion].[MS_Description] (Propiedad extendida)
+       [dbo].[TbProductos].[UsuarioModificacion].[MS_Description] (Propiedad extendida)
+
+** Acciones de compatibilidad

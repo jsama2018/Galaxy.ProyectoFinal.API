@@ -3,7 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.ProyectoFinal.API", "Galaxy.ProyectoFinal.API\Galaxy.ProyectoFinal.API.csproj", "{715BBBBC-351A-4413-BEBC-D454CA3B91D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Galaxy.ProyectoFinal.API", "Galaxy.ProyectoFinal.API\Galaxy.ProyectoFinal.API.csproj", "{715BBBBC-351A-4413-BEBC-D454CA3B91D2}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Galaxy.ProyectoFinal.BaseDatos", "Galaxy.ProyectoFinal.BaseDatos\Galaxy.ProyectoFinal.BaseDatos.sqlproj", "{A0CB651E-8B7F-4947-9654-522AFCAAAA97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Capa Datos", "01. Capa Datos", "{65D14A4C-2183-4B59-9549-ACF26887E7AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Capa Presentacion", "05. Capa Presentacion", "{9B1EA08B-C243-4798-A77C-F3D0ECF0AC99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Capa Acceso Datos", "02. Capa Acceso Datos", "{97F37043-8A67-49CC-B500-A925EF94B906}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Galaxy.ProyectoFinal.AccesoDatos", "Galaxy.ProyectoFinal.AccesoDatos\Galaxy.ProyectoFinal.AccesoDatos.csproj", "{B2939F60-F8DE-47D5-B68C-FF27E45470CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Capa Negocio", "03. Capa Negocio", "{1C2CAA92-DAC9-4B1C-ACAD-AC0B4148DB27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Galaxy.ProyectoFinal.Repositorios", "Galaxy.ProyectoFinal.Repositorios\Galaxy.ProyectoFinal.Repositorios.csproj", "{31627815-13D1-4E0A-B9A1-3C9979755B81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Capa comun", "04. Capa comun", "{57E614A0-10E5-47B6-B451-29A68032F2C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Galaxy.ProyectoFinal.Transversal", "Galaxy.ProyectoFinal.Transversal\Galaxy.ProyectoFinal.Transversal.csproj", "{5539D3DE-2B14-4FA2-97F8-05C0EBC78D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.ProyectoFinal.Servicios", "Galaxy.ProyectoFinal.Servicios\Galaxy.ProyectoFinal.Servicios.csproj", "{A103C60D-9159-4ACB-A240-5DA631637DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.ProyectoFinal.Comun", "Galaxy.ProyectoFinal.Comun\Galaxy.ProyectoFinal.Comun.csproj", "{D7927727-5DD1-4A8A-AC9D-0F90EDDF5E04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +37,44 @@ Global
 		{715BBBBC-351A-4413-BEBC-D454CA3B91D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{715BBBBC-351A-4413-BEBC-D454CA3B91D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{715BBBBC-351A-4413-BEBC-D454CA3B91D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CB651E-8B7F-4947-9654-522AFCAAAA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CB651E-8B7F-4947-9654-522AFCAAAA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CB651E-8B7F-4947-9654-522AFCAAAA97}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A0CB651E-8B7F-4947-9654-522AFCAAAA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CB651E-8B7F-4947-9654-522AFCAAAA97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CB651E-8B7F-4947-9654-522AFCAAAA97}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B2939F60-F8DE-47D5-B68C-FF27E45470CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2939F60-F8DE-47D5-B68C-FF27E45470CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2939F60-F8DE-47D5-B68C-FF27E45470CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2939F60-F8DE-47D5-B68C-FF27E45470CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31627815-13D1-4E0A-B9A1-3C9979755B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31627815-13D1-4E0A-B9A1-3C9979755B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31627815-13D1-4E0A-B9A1-3C9979755B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31627815-13D1-4E0A-B9A1-3C9979755B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5539D3DE-2B14-4FA2-97F8-05C0EBC78D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5539D3DE-2B14-4FA2-97F8-05C0EBC78D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5539D3DE-2B14-4FA2-97F8-05C0EBC78D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5539D3DE-2B14-4FA2-97F8-05C0EBC78D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A103C60D-9159-4ACB-A240-5DA631637DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A103C60D-9159-4ACB-A240-5DA631637DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A103C60D-9159-4ACB-A240-5DA631637DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A103C60D-9159-4ACB-A240-5DA631637DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7927727-5DD1-4A8A-AC9D-0F90EDDF5E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7927727-5DD1-4A8A-AC9D-0F90EDDF5E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7927727-5DD1-4A8A-AC9D-0F90EDDF5E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7927727-5DD1-4A8A-AC9D-0F90EDDF5E04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{715BBBBC-351A-4413-BEBC-D454CA3B91D2} = {9B1EA08B-C243-4798-A77C-F3D0ECF0AC99}
+		{A0CB651E-8B7F-4947-9654-522AFCAAAA97} = {65D14A4C-2183-4B59-9549-ACF26887E7AF}
+		{B2939F60-F8DE-47D5-B68C-FF27E45470CD} = {97F37043-8A67-49CC-B500-A925EF94B906}
+		{31627815-13D1-4E0A-B9A1-3C9979755B81} = {1C2CAA92-DAC9-4B1C-ACAD-AC0B4148DB27}
+		{5539D3DE-2B14-4FA2-97F8-05C0EBC78D75} = {57E614A0-10E5-47B6-B451-29A68032F2C9}
+		{A103C60D-9159-4ACB-A240-5DA631637DF1} = {1C2CAA92-DAC9-4B1C-ACAD-AC0B4148DB27}
+		{D7927727-5DD1-4A8A-AC9D-0F90EDDF5E04} = {57E614A0-10E5-47B6-B451-29A68032F2C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24117FDB-5FF0-4C75-ACBB-E265DA9DBABF}

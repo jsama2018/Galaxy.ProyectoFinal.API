@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Galaxy.ProyectoFinal.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95019059baa7c8e3aceaa301d5bafa59e9745924")]
 [assembly: System.Reflection.AssemblyProductAttribute("Galaxy.ProyectoFinal.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Galaxy.ProyectoFinal.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
